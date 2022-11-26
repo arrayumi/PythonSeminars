@@ -10,7 +10,7 @@ z = -1
 
 checker = False
 
-if -(x or y or z) == -x + (-y) + (-z):
+if -(x or y or z) == (not x) + (not y) + (not z):
     checker = True
 
 print(checker)
