@@ -15,3 +15,7 @@ by = int(input('Y: '))
 
 result = math.sqrt((bx-ax)**2 + (by-ay)**2)
 print(result)
+
+
+res = ((ax - bx)**2 + (ay - by)**2)**0.5
+print(res)

@@ -14,3 +14,7 @@ if quarter > 0 and quarter < 5:
         print('x > 0, y < 0')
 else:
     print('ошибка. введите число от 1 до 4')
+
+# решение лучше:
+d = {'1': 'x > 0, y > 0', '2':'x > 0, y < 0', '3':'x < 0, y < 0', '4':'x > 0, y < 0'}
+print(d[quarter])
