@@ -25,8 +25,7 @@ def list_neg(num):
     return list
 
 def final_list (list_neg, list_pos):
-    final_list = list_neg + list_pos
-    return final_list
+    return list_neg + list_pos
 
 res = final_list(list_neg(k), list_pos(k))
 print(res)
