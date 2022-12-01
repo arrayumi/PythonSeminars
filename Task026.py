@@ -3,8 +3,6 @@
 # - для k = 8 список будет выглядеть так: 
 # [-21 ,13, -8, 5, −3, 2, −1, 1, 0, 1, 1, 2, 3, 5, 8, 13, 21] [Негафибоначчи]
 
-k = 8
-
 def list_pos(num):
     list = []
     list.append(0)
@@ -27,5 +25,6 @@ def list_neg(num):
 def final_list (list_neg, list_pos):
     return list_neg + list_pos
 
+k = 8
 res = final_list(list_neg(k), list_pos(k))
 print(res)
