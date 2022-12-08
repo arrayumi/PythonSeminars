@@ -28,3 +28,7 @@ def final_list (list_neg, list_pos):
 k = 8
 res = final_list(list_neg(k), list_pos(k))
 print(res)
+
+
+# neg fib альтернатива рекурсией:
+# (-1)**(n+1)*fib(n)
