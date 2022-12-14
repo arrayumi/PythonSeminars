@@ -12,3 +12,8 @@ print(lst)
 for i in range (0, len(lst)):
     lst [i]= tuple(lst[i].split('='))
 print(tuple(lst))
+
+# решение лучше
+a = ('house=дом car=машина men=человек tree=дерево').split()
+b = tuple(tuple(i.split('=')) for i in a)
+print(b)

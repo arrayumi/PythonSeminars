@@ -9,10 +9,8 @@
 # Москва - Вологда - Владивосток Хабаровск
 
 cities = list(map(str, input('Введите список городов через пробел: ').split()))
-print(cities)
-
 cities = ['-' if len(i) < 5 else i for i in cities]
-print(cities)
+print(' '.join(cities))
 
-cities = ' '.join(cities)
-print(cities)
+## или
+print(" ".join(list(map(lambda x: "-" if len(x) < 5 else x , cities))))
