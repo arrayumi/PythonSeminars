@@ -1,0 +1,8 @@
+Telephone directory
+Ivanov Ivan - 92894892
+Ivanov Ivan - 48950397
+Vasilev Vasiliy - 8390949
+Petrov Petr - 9832949
+Andreev Andrey - 28943929
+Ivanova Olga - 23948938
+Semenov Semen - 48932743
